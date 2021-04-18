@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Repaso</title>
+    </head>
+<body>
+    <h1>Vamos con toda</h1>
+    <p> Esto es una prueba</p>
+    <a href="https://makeitreal.camp/" target="_blank"> ir a Make it Real</a>
+    <br>
+    <img src="./programando.jpeg" alt="mujeres programando">
+    <h2> <strong>Lista de herramientas</strong></h2>
+    <div class="lista1">
+        <ol>
+            <li>Puntilla</li>
+            <li>Martillo</li>
+            <li>Destornillador</li>
+        </ol>
+    </div>
+    <hr>
+    <h2> <em>Lista de herramientas</em></h2>
+    <div class="lista2">
+         <ul>
+            <li>Caja de <span class="trojo">herramientas</span></li>
+            <li>Puntilla</li>
+            <li>Martillo</li>
+            <li>Destornillador</li>
+        </ul>
+    </div>
+    <div>
+        <table id="tabla1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Olga</td>
+                    <td>Alejandro</td>
+                    <td>Maria</td>
+                </tr>
+                <tr>
+                    <td>Marin</td>
+                    <td>Cuellar</td>
+                    <td>Rios</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>39</td>
+                    <td>16</td>
+                </tr>                               
+             </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Pedido Pizzeria Carnivora</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <label for="password">Clave</label>
+                <input type="password" name="password" id="password"
+                    value="Incorrecto" size="8" />
+            </fieldset>
+            <fieldset>
+              <label for="nombre">
+                Nombre
+                <input type="text" name="nombre" id="nombre" value=""/>
+              </label>
+            </fieldset>
+            <fieldset>
+              <label for="apellido">
+                Apellido
+                <input type="text" name="apellido" id="apellido" value=""/>
+              </label>
+            </fieldset>
+            <fieldset>
+              <label for="address">
+                Direccion
+                <input type="text" name="address" id="address" value=""/>
+              </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                  <input type="checkbox" name="seleccion" value="nuevos clientes" />
+                  Cliente Nuevo
+                </label>
+                <label>
+                  <input type="checkbox" name="seleccion" value="clientes antiguos" checked />
+                  Cliente Antiguo
+                </label>
+            </fieldset>
+            <fieldset>            
+              <label>
+                Sabor
+                <select name="flavor">
+                  <option value="" disabled selected>Selecciona un sabor</option>
+                  <option value="napolitana">Napolitana</option>
+                  <option value="pollo">Pollo</option>
+                  <option value="salami">Salami</option>
+                </select>
+              </label>
+            </fieldset>
+            <fieldset>
+              <label>
+                <input type="radio" name="size" value="small" />
+                Pequeña
+              </label>
+              <label>
+                <input type="radio" name="size" value="medium" />
+                Mediana
+              </label>
+              <label>
+                <input type="radio" name="size" value="large" checked/>
+                Grande
+              </label>
+            </fieldset>
+            <fieldset>
+              <label>
+                Comentario
+                <textarea name="comentario" rows="4" cols="30"></textarea>
+              </label>
+            </fieldset>
+            <fieldset>
+              <input type="submit" value="Pedir" />
+            </fieldset>
+          </form>
+    </div>
+    </body>
+</html>

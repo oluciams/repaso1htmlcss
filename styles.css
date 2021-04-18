@@ -1,0 +1,32 @@
+.lista1 {
+    color: blueviolet;
+    background-color: yellow;
+}
+.lista2 {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+.trojo{
+    color: red;
+}
+table, tr, th, td {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 10px;    
+}
+#tabla1 {
+    background-color: gray;
+    font-size: 25px; 
+    color: white;
+    margin-left: 30%;
+    
+}
+h2 {
+    color: rgb(194, 104, 104);
+    font-size: 30px;
+}
+label {
+    color: yellowgreen
+}
