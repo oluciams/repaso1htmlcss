@@ -33,3 +33,4 @@ function generatePassword (string){
 }
 console.log (generatePassword("Hola"))
 console.log(generatePassword("esta es una prueba"))
+// probando otra vez git
